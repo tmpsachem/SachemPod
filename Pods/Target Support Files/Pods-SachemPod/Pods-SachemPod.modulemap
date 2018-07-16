@@ -1,0 +1,6 @@
+framework module Pods_SachemPod {
+  umbrella header "Pods-SachemPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

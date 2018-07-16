@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91F875CF2B3B96A6E664F01C /* Pods_SachemPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B353B1526C002250777EA6 /* Pods_SachemPod.framework */; };
 		C1B45CD020FCC67C00F31734 /* SachemPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B45CC620FCC67C00F31734 /* SachemPod.framework */; };
 		C1B45CD520FCC67C00F31734 /* SachemPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B45CD420FCC67C00F31734 /* SachemPodTests.swift */; };
 		C1B45CD720FCC67C00F31734 /* SachemPod.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B45CC920FCC67C00F31734 /* SachemPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1B45CE120FCC87000F31734 /* SPShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B45CE020FCC87000F31734 /* SPShortcuts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96B353B1526C002250777EA6 /* Pods_SachemPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SachemPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B45CC620FCC67C00F31734 /* SachemPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SachemPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B45CC920FCC67C00F31734 /* SachemPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SachemPod.h; sourceTree = "<group>"; };
 		C1B45CCA20FCC67C00F31734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1B45CCF20FCC67C00F31734 /* SachemPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SachemPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B45CD420FCC67C00F31734 /* SachemPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SachemPodTests.swift; sourceTree = "<group>"; };
 		C1B45CD620FCC67C00F31734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B45CE020FCC87000F31734 /* SPShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPShortcuts.swift; sourceTree = "<group>"; };
+		F1171501993DC8D6869DB724 /* Pods-SachemPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SachemPod.release.xcconfig"; path = "Pods/Target Support Files/Pods-SachemPod/Pods-SachemPod.release.xcconfig"; sourceTree = "<group>"; };
+		FAF3AF7D58E07562C70CCE7F /* Pods-SachemPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SachemPod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SachemPod/Pods-SachemPod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F875CF2B3B96A6E664F01C /* Pods_SachemPod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +57,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67D8A5AA65C4F70818A19944 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAF3AF7D58E07562C70CCE7F /* Pods-SachemPod.debug.xcconfig */,
+				F1171501993DC8D6869DB724 /* Pods-SachemPod.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C1B45CBC20FCC67C00F31734 = {
 			isa = PBXGroup;
 			children = (
 				C1B45CC820FCC67C00F31734 /* SachemPod */,
 				C1B45CD320FCC67C00F31734 /* SachemPodTests */,
 				C1B45CC720FCC67C00F31734 /* Products */,
+				67D8A5AA65C4F70818A19944 /* Pods */,
+				EE026C083644C9CE753D0D5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +91,7 @@
 			children = (
 				C1B45CC920FCC67C00F31734 /* SachemPod.h */,
 				C1B45CCA20FCC67C00F31734 /* Info.plist */,
+				C1B45CE020FCC87000F31734 /* SPShortcuts.swift */,
 			);
 			path = SachemPod;
 			sourceTree = "<group>";
@@ -84,6 +103,14 @@
 				C1B45CD620FCC67C00F31734 /* Info.plist */,
 			);
 			path = SachemPodTests;
+			sourceTree = "<group>";
+		};
+		EE026C083644C9CE753D0D5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96B353B1526C002250777EA6 /* Pods_SachemPod.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +131,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1B45CDA20FCC67C00F31734 /* Build configuration list for PBXNativeTarget "SachemPod" */;
 			buildPhases = (
+				174ECA15262ED4820300E8B0 /* [CP] Check Pods Manifest.lock */,
 				C1B45CC120FCC67C00F31734 /* Sources */,
 				C1B45CC220FCC67C00F31734 /* Frameworks */,
 				C1B45CC320FCC67C00F31734 /* Headers */,
@@ -148,6 +176,7 @@
 				TargetAttributes = {
 					C1B45CC520FCC67C00F31734 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					C1B45CCE20FCC67C00F31734 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -189,11 +218,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		174ECA15262ED4820300E8B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SachemPod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1B45CC120FCC67C00F31734 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B45CE120FCC87000F31734 /* SPShortcuts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +389,9 @@
 		};
 		C1B45CDB20FCC67C00F31734 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF3AF7D58E07562C70CCE7F /* Pods-SachemPod.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -355,6 +408,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sachem.SachemPod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -362,7 +416,9 @@
 		};
 		C1B45CDC20FCC67C00F31734 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1171501993DC8D6869DB724 /* Pods-SachemPod.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -387,6 +443,7 @@
 		C1B45CDE20FCC67C00F31734 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SachemPodTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,6 +461,7 @@
 		C1B45CDF20FCC67C00F31734 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SachemPodTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
