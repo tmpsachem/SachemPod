@@ -31,5 +31,5 @@ s.framework = "UIKit"
 s.source_files = "SachemPod/**/*.{swift}"
 
 # 9
-s.resources = "SachemPod/**/*.{png,jpeg,jpg,storyboard,xib}"
+#s.resources = "SachemPod/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
