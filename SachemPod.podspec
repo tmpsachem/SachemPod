@@ -21,7 +21,7 @@ s.homepage = "https://github.com/tmpsachem/SachemPod"
 
 
 # 6
-s.source = { :git => "https://github.com/tmpsachem/SachemPod.git"", :tag => "#{s.version}"}
+ s.source = { :git => "https://github.com/tmpsachem/SachemPod.git", :tag => "#{s.version}"}
 
 
 # 7
